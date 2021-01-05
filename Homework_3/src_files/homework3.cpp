@@ -23,7 +23,7 @@ void DatabaseManager::CreateTable(std::string createTableQuery){
 
 std::string DatabaseManager::ReadData(std::string readDataQuery){
 	std::cout << "Reading data..." << std::endl;
-	return "Some readed values";
+	return "Some readed values here";
 }
 
 void DatabaseManager::Update(std::string updateQuery){
